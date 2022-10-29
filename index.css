@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    padding: 20px 0 25px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+nav a:hover {
+    color: orange;
+    border-color: orange;
+}
+nav a:active {
+    color: orangered;
+    border-color: orangered;
+}
+
+button {
+    margin-top: 15px;
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section {
+    height: 60vh;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    color: white;
+    background-color: dodgerblue;
+}
+section + section {
+    background-color: deeppink;
+}
+section + section + section {
+    background-color: mediumseagreen;
+    margin-bottom: 200px;
+}
