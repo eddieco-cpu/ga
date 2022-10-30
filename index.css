@@ -57,3 +57,9 @@ section + section + section {
     background-color: mediumseagreen;
     margin-bottom: 200px;
 }
+
+.video-container {
+    width: 752px;
+    margin: 0 auto 500px;
+    max-width: 100%;
+}
